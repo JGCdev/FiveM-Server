@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Cabin|Roboto+Slab&display=swap" rel="stylesheet"> 
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		
+		<div class="dialog">
+			<img class="logo" src="logo.png" alt="logo">
+			<form id="register">
+				<h1>REGISTRO</h1>
+				<label>Nombre* (primera mayúscula)</label>
+				<input id="firstname" type="text" placeholder="Nombre"><br>
+				<label>Apellido* (primera mayúscula)</label>
+				<input id="lastname" type="text" placeholder="Apellido"><br>
+				<label>Fecha de nacimiento (mantener formato año-mes-día)</label>
+				<input id="dateofbirth" type="text" placeholder="Nacimiento (YYYY-MM-DD)"><br>
+				<label>Peso</label>
+				<input id="height" type="text" placeholder="Altura (140-200 cm)"><br><center>
+				<input type="radio" name="sex" value="m" checked>Hombre
+				<input type="radio" name="sex" value="f">Mujer<br></center>
+				<button id="submit" type="submit">CREAR</button>
+			</form>
+		</div>
+		<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+[ERROR] ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+[MySQL] [es_extended] [1ms] SELECT * FROM items
+[ERROR] [MySQL] [es_extended] An error happens on MySQL for query "SELECT * FROM items": ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+[MySQL] [esx_addonaccount] [1ms] SELECT * FROM addon_account
+[MySQL] [esx_addoninventory] [1ms] SELECT * FROM items
+[ERROR] [MySQL] [esx_addoninventory] An error happens on MySQL for query "SELECT * FROM items": ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+[MySQL] [esx_boat] [2ms] UPDATE owned_vehicles SET `stored` = true WHERE `stored` = false AND type = 'boat'
+[MySQL] [esx_datastore] [2ms] SELECT * FROM datastore
+[ERROR] [MySQL] [esx_datastore] An error happens on MySQL for query "SELECT * FROM datastore": ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+[MySQL] [esx_shops] [1ms] SELECT * FROM shops LEFT JOIN items ON items.name = shops.item
+[MySQL] [esx_society] [1ms] SELECT * FROM jobs
+[ERROR] [MySQL] [esx_society] An error happens on MySQL for query "SELECT * FROM jobs": ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+[MySQL] [esx_vehicleshop] [1ms] SELECT * FROM vehicle_categories
+[MySQL] [esx_weaponshop] [1ms] SELECT * FROM weashops
+[ERROR] [MySQL] [esx_weaponshop] An error happens on MySQL for query "SELECT * FROM weashops": ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+[MySQL] [esplugin_mysql] [1ms] SELECT 1 FROM users WHERE `identifier`='steam:11000010febf2f0';
+[ERROR] [MySQL] [esplugin_mysql] An error happens on MySQL for query "SELECT 1 FROM users WHERE `identifier`='steam:11000010febf2f0';": ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+[MySQL] [esx_ambulancejob] [1ms] SELECT is_dead FROM users WHERE identifier = 'steam:11000010febf2f0'
+[ERROR] [MySQL] [esx_ambulancejob] An error happens on MySQL for query "SELECT is_dead FROM users WHERE identifier = 'steam:11000010febf2f0'": ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)

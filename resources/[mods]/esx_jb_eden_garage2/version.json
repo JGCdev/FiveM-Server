@@ -1,0 +1,7 @@
+{
+  "version":"2.1.0",
+  "patchnote" : [
+    "- fix plates with trims",
+    "- cannot open menu when in vehicle"
+  ]
+}

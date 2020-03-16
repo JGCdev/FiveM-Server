@@ -1,0 +1,25 @@
+Locales['es'] = {
+    ['you_paid'] = 'Ha pagado ~g~€%s~s~',
+    ['garage'] = 'Garaje',
+    ['notif_car_impounded'] = 'Garaje: <br /> Su coche ha sido embargado!',
+    ['status_in_garage'] = '%s: <font color="green">En garaje</font>',
+    ['status_impounded'] = '%s: <font color="red">Embargado</font>',
+    ['list_vehicles'] = 'Lista de vehículos',
+    ['stock_vehicle'] = 'Guardar vehículo',
+    ['return_vehicle'] = 'Devolver coche al depósito (€%s)',
+    ['reparation'] = 'Su vehículo está dañado!',
+    ['reparation_yes'] = 'Reparar (€%s)',
+    ['reparation_no'] = 'No, gracias!',
+    ['reparation_no_notif'] = 'Para guardar el vehículo, debe estar en perfectas condiciones',
+    ['ranger'] = 'Garage: <br /> Se ha guardado su coche en el garaje!',
+    ['stockv_not_owned'] = 'Garaje: <br /> Este vehículo no es suyo!',
+    ['stockv_not_in_veh'] = 'Garaje: <br /> Necesita un vehículo para poder guardarlo!',
+    ['spawn'] = 'Pulse ~INPUT_PICKUP~ para retirar su vehículo',
+    ['delete'] = 'Pulse  ~INPUT_PICKUP~ para guardar su vehículo',
+    ['pound_action_menu'] = 'Pulse ~INPUT_PICKUP~ para entrar al depósito',
+    ['not_enough_money'] = 'No tiene suficiente dinero',
+    ['impound_list'] = '%s: Devolver',
+    ['impound_yard'] = 'Depósito Municipal',
+    ['impound_not_enough_money'] = 'Garaje: <br /> No tiene suficiente dinero'
+
+}
